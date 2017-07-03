@@ -1,0 +1,26 @@
+input,select {
+    display: block;
+    margin: 10px;
+font-size: 20px;
+    width: 300px;
+
+}
+.divs{
+    border: 5px solid #000000;
+    border-radius: 16px ;
+}
+input[type="submit"]{
+    height: 80px;
+    font-family: 'Pangolin', cursive;
+}
+#backgr{
+    background: url("ss.jpg") no-repeat;
+    font-family: 'Pangolin', cursive;
+}
+.divs:hover{
+    color: red;
+}
+.btn:hover{
+    background-color: darkgoldenrod;
+}
+
