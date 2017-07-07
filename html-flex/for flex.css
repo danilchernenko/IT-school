@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: darkgoldenrod;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+}
+.block{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.circle{
+    display: inline-flex;
+    width: 250px;
+    height: 250px;
+    border: blueviolet solid 3px;
+    border-radius: 200px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.circles{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
