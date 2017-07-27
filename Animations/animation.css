@@ -1,0 +1,76 @@
+.anim-1{
+    width: 100px;
+    height: 100px;
+    border: solid 3px firebrick;
+    margin: 45px 0 0 45px;
+    animation: pulse 2s infinite;
+}
+.anim-2{
+    width: 100px;
+    height: 100px;
+    border: solid 3px darkblue;
+    background-color: red;
+    border-radius: 100px;
+    margin: 60px 0 0 40px;
+    animation: color 4s infinite;
+}
+.anim-3{
+    width: 100px;
+    height: 100px;
+    border: solid 3px darkgoldenrod;
+    margin: 60px 0 0 40px;
+    animation: anim-3 4s infinite;
+    background-color: blueviolet;
+
+}
+
+@keyframes color {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: blue;
+    }
+    75% {
+        background-color: orangered;
+    }
+    100% {
+        background-color: green;
+    }
+}
+
+
+
+
+@keyframes pulse {
+   0%{
+       transform: scale(1);
+   }
+    50%{
+        transform: scale(1.4);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes anim-3 {
+    0%{
+        transform: translate(0,0); background-color: blueviolet;
+    }
+    25%{
+        transform: translate(100px,0);background-color: red;
+    }
+    50%{
+        transform: translate(200px,0);background-color: seagreen;
+    }
+    75%{
+        transform: translate(300px,0);background-color: chocolate;
+    }
+    100%{
+        transform: translate(0,0);background-color: blueviolet;
+    }
+    
+}
